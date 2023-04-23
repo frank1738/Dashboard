@@ -1,12 +1,14 @@
 @import url('https://cdn.syncfusion.com/ej2/material.css');
 
 .sidebar {
-  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+  box-shadow: rgb(113 122 131 / 11%) 0 7px 30px 0;
 }
+
 .nav-item,
 .navbar {
   z-index: 10000;
 }
+
 @media screen and (max-width: 800px) {
   .sidebar {
     z-index: 10000000;
@@ -21,10 +23,12 @@
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: rgb(216, 216, 216);
   border-radius: 40px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
@@ -32,7 +36,8 @@
 /* color-picker style  */
 
 #preview {
-  background: transparent
+  background:
+    transparent
     url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
     no-repeat;
   display: inline-block;
