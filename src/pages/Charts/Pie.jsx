@@ -1,5 +1,3 @@
-// import React from 'react';
+const Pie = () => <div>Pie</div>;
 
-// const Pie = () => <div>Pie</div>;
-
-// export default Pie;
+export default Pie;
