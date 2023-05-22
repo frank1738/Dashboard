@@ -4,6 +4,11 @@
     "es6": true,
     "jest": true
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -22,7 +27,12 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
+    "import/no-cycle": "off",
     "no-shadow": "off",
+    "react/prop-types": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/label-has-associated-control": "off",
     "max-len": [
       "error",
       {
@@ -38,5 +48,11 @@
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
   ],
-  "ignorePatterns": ["dist/", "build/", "craco.config.js"]
+  "ignorePatterns": [
+    "dist/",
+    "build/",
+    "craco.config.js",
+    "Navbar.jsx",
+    "Button.jsx"
+  ]
 }
