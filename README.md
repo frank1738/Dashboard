@@ -1,32 +1,6 @@
-### Admin Dashboard
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <br/>
+## Admin Dashboard
 
 </div>
 
@@ -52,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Admin Dashboard <a name="about-project"></a>
 
-> This is an Admin Dashboard that provides administrators with an overview of various aspects of an E-commerce system. It contains three pages,four apps and Seven fully functional charts.
+- This is an Admin Dashboard that provides administrators with an overview of various aspects of an E-commerce system. It contains three pages,four apps and Seven fully functional charts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +43,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **Dashboard**
-- **Four Apps including Calender, Kanban board, Editor and a Color-picker**
+- **Four Apps (Calender, Kanban board, Editor and a Color-picker)**
 - **Seven fully functional charts**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,10 +57,6 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
